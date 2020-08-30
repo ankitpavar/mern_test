@@ -25,9 +25,8 @@ const userSchema = new Schema(
       index: true,
     },
     dob: {
-      type: 'Date',
+      type: 'String',
       required: true,
-      trim: true,
     },
     bio: {
       type: 'String',
