@@ -1,0 +1,3 @@
+[submodule "client/mern_test_front"]
+	path = client/mern_test_front
+	url = https://github.com/ankitpavar/mern_test_front
