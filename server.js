@@ -17,10 +17,9 @@ app.use(compression()); //Compress all routes
 // DB connection
 connectDB();
 
-// view engine
-
 
 //Middlewares
+app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: true }));
