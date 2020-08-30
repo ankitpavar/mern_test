@@ -2,9 +2,11 @@ const express = require('express');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 const helmet = require('helmet');
+const cors = require('cors');
 const compression = require('compression');
 const connectDB = require('./config/db.js')
 const userRoutes = require('./routes/userRoutes')
+
 
 dotenv.config({ path: './config/config.env' });
 
